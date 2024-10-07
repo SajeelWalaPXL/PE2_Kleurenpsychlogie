@@ -12,6 +12,7 @@
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <TextBlock Grid.ColumnSpan="2" TextWrapping="Wrap" Text="Kleurenpsychologie:" Margin="58,34,630,378"/>
+        <Image Grid.ColumnSpan="2" Margin="574,29,76,255" Source="/PXL.png" Stretch="Fill"/>
 
     </Grid>
 </Window>
