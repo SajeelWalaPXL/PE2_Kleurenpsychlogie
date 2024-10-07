@@ -71,5 +71,30 @@ namespace Kleurenpsychologie
 
             this.Background = new SolidColorBrush(Colors.LightGray);
         }
+        private void RedImage_MouseDown(object sender, MouseEventArgs e)
+        {
+            ColorCode.Text = "#FF0000";
+        }
+
+        private void YellowImage_MouseDown(object sender, MouseEventArgs e)
+        {
+            ColorCode.Text = "#FFFF00";
+        }
+
+        private void GreenImage_MouseDown(object sender, MouseEventArgs e)
+        {
+            ColorCode.Text = "#008000";
+        }
+
+        private void BlueImage_MouseDown(object sender, MouseEventArgs e)
+        {
+            ColorCode.Text = "#0000FF";
+        }
+
+
+
     }
+
+
+
 }
