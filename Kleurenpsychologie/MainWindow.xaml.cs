@@ -1,4 +1,7 @@
-﻿using System.Text;
+﻿using System.IO;
+using System.Runtime.Intrinsics.X86;
+using System;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -19,6 +22,54 @@ namespace Kleurenpsychologie
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+
+        private void RedImage_MouseEnter(object sender, MouseEventArgs e)
+        {
+
+            this.Background = new SolidColorBrush(Colors.Red);
+        }
+
+
+        private void YellowImage_MouseEnter(object sender, MouseEventArgs e)
+        {
+
+            this.Background = new SolidColorBrush(Colors.Yellow);
+        }
+
+        private void GreenImage_MouseEnter(object sender, MouseEventArgs e)
+        {
+
+            this.Background = new SolidColorBrush(Colors.Green);
+        }
+        private void BlueImage_MouseEnter(object sender, MouseEventArgs e)
+        {
+
+            this.Background = new SolidColorBrush(Colors.Blue);
+        }
+        private void RedImage_MouseLeave(object sender, MouseEventArgs e)
+        {
+
+            this.Background = new SolidColorBrush(Colors.LightGray);
+        }
+
+
+        private void YellowImage_MouseLeave(object sender, MouseEventArgs e)
+        {
+
+            this.Background = new SolidColorBrush(Colors.LightGray);
+        }
+
+        private void GreenImage_MouseLeave(object sender, MouseEventArgs e)
+        {
+
+            this.Background = new SolidColorBrush(Colors.LightGray);
+        }
+        private void BlueImage_MouseLeave(object sender, MouseEventArgs e)
+        {
+
+            this.Background = new SolidColorBrush(Colors.LightGray);
         }
     }
 }
