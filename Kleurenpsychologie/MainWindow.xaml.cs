@@ -74,21 +74,25 @@ namespace Kleurenpsychologie
         private void RedImage_MouseDown(object sender, MouseEventArgs e)
         {
             ColorCode.Text = "#FF0000";
+            Information.Text = "Rood is de kleur van warmte";
         }
 
         private void YellowImage_MouseDown(object sender, MouseEventArgs e)
         {
             ColorCode.Text = "#FFFF00";
+            Information.Text = "Geel is de kleur van levenslust";
         }
 
         private void GreenImage_MouseDown(object sender, MouseEventArgs e)
         {
             ColorCode.Text = "#008000";
+            Information.Text = "Groen is de kleur van genezing";
         }
 
         private void BlueImage_MouseDown(object sender, MouseEventArgs e)
         {
             ColorCode.Text = "#0000FF";
+            Information.Text = "Blauw is de kleur van intelligentie";
         }
 
 

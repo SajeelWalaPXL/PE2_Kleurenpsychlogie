@@ -18,7 +18,9 @@
         <Image x:Name="green_Image" MouseEnter="GreenImage_MouseEnter" MouseLeave="GreenImage_MouseLeave" MouseDown="GreenImage_MouseDown"        Grid.ColumnSpan="2" Margin="38,182,593,140" Source="/Groen.png" Stretch="Fill"/>
         <Image x:Name="blue_Image" MouseEnter="BlueImage_MouseEnter" MouseLeave="BlueImage_MouseLeave" MouseDown="BlueImage_MouseDown"        Grid.ColumnSpan="2" Margin="257,184,374,138" Source="/Blauw.png" Stretch="Fill"/>
         <TextBlock Grid.ColumnSpan="2" TextWrapping="Wrap" Text="Kleurcode:" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="4,0,0,104"/>
-        <TextBox x:Name="ColorCode" Grid.ColumnSpan="2" TextWrapping="Wrap" Margin="110,0,0,103" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="159"/>
+        <TextBox x:Name="ColorCode" Grid.ColumnSpan="2" TextWrapping="Wrap" Margin="110,0,0,103" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="219"/>
+        <TextBlock Grid.ColumnSpan="2" TextWrapping="Wrap" Text="Informatie: " HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="2,0,0,73"/>
+        <TextBox x:Name="Information" Grid.ColumnSpan="2" TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="110,0,0,68" Width="221"/>
 
 
     </Grid>
